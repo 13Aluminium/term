@@ -23,4 +23,4 @@ Features
 
 # License
 
-- This code is open-source and available under the MIT License.
+- This code is open-source and available under the MIT License. xD
