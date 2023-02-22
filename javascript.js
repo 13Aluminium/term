@@ -242,13 +242,18 @@ break;
    
 
     explore: function(naam){
-        this.echo("type your name only first name and password is 1234 rn");
-        if(naam == "ayush"){
+        if (naam == null){
+        this.echo("type ayush  and password is 1234 rn");
+        }
+       else if(naam == "ayush"){
             var psw = window.prompt("enter password if you are ayush?");
             
             if(psw == '1234'){
                 this.echo("flag2");
                 window.open("https://github.com/13Aluminium");
+                window.open("https://www.linkedin.com/in/ayushluhar/");
+                window.open("https://13aluminium.github.io/portfolio/");
+                window.open("https://13aluminium.github.io/Resume");
 
             }
             else{
