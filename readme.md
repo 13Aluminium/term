@@ -1,4 +1,4 @@
-# Terminal for Everyone:  
+# Terminal for Everyone
 
 - This is a web-based terminal-like interface built using the jQuery Terminal plugin. The code includes two JavaScript files, jquery-3.3.1.min.js and jquery.terminal.min.js, as well as a CSS file jquery.terminal.min.css that are imported from external sources.
 Features
