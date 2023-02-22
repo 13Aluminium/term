@@ -242,7 +242,7 @@ break;
         if (naam == null){
         this.echo("type your name only first name and password is 1234 rn");
         }
-        if(naam == "ayush"){
+       else if(naam == "ayush"){
             var psw = window.prompt("enter password if you are ayush?");
             
             if(psw == '1234'){
