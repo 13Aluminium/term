@@ -219,6 +219,41 @@ break;
 }
 
     },
+    // function pswd(psw){
+        
+    //     if(psw == 'ajl'){
+    //        this.echo("flag3");
+    //         return 4;
+    //        }
+    //    else
+    //        return false;
+    // },
+    // pswd: function(psw){
+    //     if(psw == 'ajl'){
+    //         this.echo("flag3");
+    //          return 4;
+    //         }
+    //     else
+    //         return false;
+    // },
+   
+
+    explore: function(naam){
+        this.echo("type your name only first name and password is 1234 rn");
+        if(naam == "ayush"){
+            var psw = window.prompt("enter password if you are ayush?");
+            
+            if(psw == '1234'){
+                this.echo("flag2");
+                window.open("https://github.com/13Aluminium");
+
+            }
+            else{
+                this.echo("wrong password")
+            }
+        }
+    },
+    
 
     // IO/OS specific operation commands
 
