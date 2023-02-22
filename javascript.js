@@ -258,7 +258,15 @@ break;
             }
         }
     },
-    
+    knock :function(knock){
+        if (knock == null){
+            this.echo("do you even know how to ask for a joke??");
+        }
+        if (knock =="knock"){
+            this.echo("who's there??");
+            this.echo("i will get back to you");
+        }
+    },
 
     // IO/OS specific operation commands
 
