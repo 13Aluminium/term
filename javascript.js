@@ -174,16 +174,19 @@ $('body').terminal({
     ref: function(){
         location.reload();
     },
+    
+    
     day: function(){
         const date = new Date();
 
 let day = date.getDay();
-let month = date.getMonth() + 1;
-let year = date.getFullYear();
+// let month = date.getMonth() + 1;
+// let year = date.getFullYear();
 
 // // This arrangement can be altered based on how we want the date's format to appear.
 // let currentDate = `${day}-${month}-${year}`;
 // this.echo(currentDate); // "17-6-2022"
+        this.echo(day);
 switch (day) {
 case 1:
 this.echo("monday")

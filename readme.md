@@ -12,6 +12,11 @@ Features
             clear - Clears the terminal screen.
             git - Opens the GitHub profile of a specific user.
             exit - Closes the terminal window.
+        
+### New features rolled out version 3.2
+      explore ayush - after writing this cmd a promt will appear in which you have to write "1234" and 
+                      allow popups on your webpage.
+        
 
 # Usage
 
