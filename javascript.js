@@ -85,22 +85,14 @@ $('body').terminal({
         if (event == 'google') {
             window.open("https://www.google.com");
         }
-        else if (event == 'whatsaap') {
-            window.open("wa.link/a0t6vs");
-
-        }
-        else if (event == 'stngs') {
-            window.open("app://settings");
-        }
-        else if (event == 'h') {
-            this.echo("write the site name to open it");
-        }
+     
+        
         else {
             window.open('https://www.' + event + '.com', '_blank');
 
         }
 
-
+//https://github.com/13Aluminium/term.git
 
     },
     clear: function () {
@@ -174,19 +166,16 @@ $('body').terminal({
     ref: function(){
         location.reload();
     },
-    
-    
     day: function(){
         const date = new Date();
 
 let day = date.getDay();
-// let month = date.getMonth() + 1;
-// let year = date.getFullYear();
+let month = date.getMonth() + 1;
+let year = date.getFullYear();
 
 // // This arrangement can be altered based on how we want the date's format to appear.
 // let currentDate = `${day}-${month}-${year}`;
 // this.echo(currentDate); // "17-6-2022"
-        this.echo(day);
 switch (day) {
 case 1:
 this.echo("monday")
