@@ -96,7 +96,7 @@ $('body').terminal({
 
     },
     open_docs:function(docs){
-        if(docs==null){
+        if(docs==help){
             this.echo("write tt for timetable\nwrite dsa_prac for dsa practical list\nwrite dbms_prac for dbms practical list\nwrite mpco_prac for mpco practical list\nwrite py_prac for pytohn practical list\n");
         }
         if(docs=="tt"){
@@ -329,7 +329,7 @@ break;
 
 
     {
-        greetings: 'type help to see more options\nwrite opendocs'
+        greetings: 'type help to see more options\nwrite opendocs help'
         // greetings: "write opendocs"
     });
 
