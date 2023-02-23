@@ -95,6 +95,30 @@ $('body').terminal({
 //https://github.com/13Aluminium/term.git
 
     },
+    open_docs:function(docs){
+        if(docs==null){
+            this.echo("write tt for timetable\nwrite dsa_prac for dsa practical list\nwrite dbms_prac for dbms practical list\nwrite mpco_prac for mpco practical list\nwrite py_prac for pytohn practical list\n");
+        }
+        if(docs=="tt"){
+            window.open("public/assets/docs/timetable.pdf");
+        }
+        else if(docs == "dsa_prac"){
+            window.open("public/assets/docs/DSA.pdf");
+        }
+        else if(docs == "dbms_prac"){
+            window.open("public/assets/docs/DBMS.pdf");
+        }
+        else if(docs == "mpco_prac"){
+            window.open("public/assets/docs/MPCO.pdf");
+        }
+        else if(docs == "py_prac"){
+            window.open("public/assets/docs/PYTHON.pdf");
+        }
+        else{
+            this.echo("get your text straight you silly human");
+        }
+        
+    },
     clear: function () {
         this.clear();
         this.echo('this will clear all comands');
@@ -305,6 +329,7 @@ break;
 
 
     {
-        greetings: 'type help to see more options'
+        greetings: 'type help to see more options\nwrite opendocs'
+        // greetings: "write opendocs"
     });
 
