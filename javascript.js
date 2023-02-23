@@ -329,7 +329,7 @@ break;
 
 
     {
-        greetings: 'type help to see more options\nwrite open_docs help'
+        greetings: 'type help to see more options\nwrite open_docs help for seeing our new feature'
         // greetings: "write opendocs"
     });
 
