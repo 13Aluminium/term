@@ -170,11 +170,11 @@
 
         new Audio('public/assets/audio/Riot.mp3').play();
       }
-      else if (song == 'Avengers' || 'avengers') {
-        new Audio().pause();
+//       else if (song == 'Avengers' || 'avengers') {
+//         new Audio().pause();
 
-        new Audio('public/assets/audio/Avengers.mp3').play();
-      }
+//         new Audio('public/assets/audio/Avengers.mp3').play();
+//       }
       else if(song=='lib'){
         window.open("https://music.youtube.com/library");
       }
