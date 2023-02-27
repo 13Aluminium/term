@@ -415,6 +415,43 @@ $('body').terminal({
         break;
 
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // if (docs == "help") {
+    //   this.echo("write tt for timetable\nwrite dsa_prac for dsa practical list\nwrite dbms_prac for dbms practical list\nwrite mpco_prac for mpco practical list\nwrite py_prac for pytohn practical list\n");
+    // }
+    // if (docs == "tt") {
+    //   window.open("public/assets/docs/timetable.pdf");
+    // }
+    // else if (docs == "dsa_prac") {
+    //   window.open("public/assets/docs/DSA.pdf");
+    // }
+    // else if (docs == "dbms_prac") {
+    //   window.open("public/assets/docs/DBMS.pdf");
+    // }
+    // else if (docs == "mpco_prac") {
+    //   window.open("public/assets/docs/MPCO.pdf");
+    // }
+    // else if (docs == "py_prac") {
+    //   window.open("public/assets/docs/PYTHON.pdf");
+    // }
+    // else {
+    //   this.echo("get your text straight you silly human");
+    // }
+
+
   },
   //###############################################################################
   //VERSION 2 : NOT-COMPLETED WELCOMED TO WRITE ANY MORE COMMANDS OR CHANGES IN IT
