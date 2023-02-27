@@ -300,19 +300,19 @@ $('body').terminal({
       case ("dbms_ppt"):
         var chp = window.prompt("which chapter do you want, puny human??");
         switch (chp) {
-          case 1:
+          case "1":
             window.open("public/assets/docs/dbms_ppts/01.pdf");
             break;
-          case 2:
+          case "2":
             window.open("public/assets/docs/dbms_ppts/02.pdf");
             break;
-          case 3:
+          case "3":
             window.open("public/assets/docs/dbms_ppts/03.pdf");
             break;
-          case 4:
+          case "4":
             window.open("public/assets/docs/dbms_ppts/04.pdf");
             break;
-          case 6:
+          case "6":
             window.open("public/assets/docs/dbms_ppts/06.pdf");
             break;
           default:
