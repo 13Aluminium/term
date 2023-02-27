@@ -165,22 +165,132 @@ $('body').terminal({
   //$$ YOUR SAVED PLAYLISTS
   //$$$ CONSTRAINT IN THIS FUNCTION IS THAT IT CANT DIRECTLY PLAY THAT SONG ON YOUTUBE MUSIC BUT I AM TRYING TO FIND THAT API
   play: function (song) {
-    if (song == 'riot') {
-      new Audio().pause();
-
-      new Audio('public/assets/audio/Riot.mp3').play();
-    }
-    else if (song == 'Avengers' || 'avengers') {
-      new Audio().pause();
-
-      new Audio('public/assets/audio/Avengers.mp3').play();
-    }
-    else if (song == 'lib') {
+   if (song == 'lib') {
       window.open("https://music.youtube.com/library");
     }
     else {
       // this.echo("flag");
       window.open(`https://music.youtube.com/search?q=${song}`);
+
+      }
+      //https://github.com/13Aluminium/term.git
+    },
+
+//$ 'clear' FUNCTION DOESNT REQUIRE ANY ARGUMENT 
+//$$ THIS COMMAND IS FOR CLEARING ALL THE PREVIOUS COMMANDS
+//$$$ THE OPPOSITE OF THIS COMMAND IS YET TO BE IMPLEMENTED, THAT COMMAND IS HISTORY BUT THATS NOT POSSIBLE W/O DATASTRUCTURE 
+//$$$ IF WE CREATE A DATASTRUCTURE THE SITE WONT BE STATIC SITE AFTER THAT SO GITHUB PAGES WOULDNT BE ABLE TO HOST IT
+    clear: function () {
+      this.clear();
+      this.echo('this will clear all comands');
+    },
+
+
+//$ 'git' FUNCTION DOES REQUIRE AN ARGUMENT AS A USER NAME OF GITHUB 
+//$$ THIS COMMAND IS FOR REDIRECTING TO THE GITHUB USERNAME's HOMEPAGE
+//$$$ CONSTRAINT IN THIS FIUCNTION IS THAT IF THE USER NAME ISN'T SPELLED CORRECTLY YOU MAY NO GET DESIRED RESULTS
+    git: function (name) {
+      if (name == 'ketul') {
+        window.open('https://github.com/ketul-pandya');
+      }
+      else if (name == 'ayush') {
+        window.open('https://github.com/13Aluminium');
+      }
+      else if (name == 'al_term') {
+        window.open('https://github.com/13Aluminium/term')
+      }
+      else if (name == 'al_port') {
+        window.open('https://github.com/13Aluminium/portfolio')
+      }
+      else if (name == 'kavan') {
+        window.open('https://github.com/KavanGandhi');
+      }
+      else if (name == 'jash') {
+        window.open('https://github.com/jashkarangiya ');
+      }
+      else if (name == 'monk') {
+        window.open('https://github.com/krishnanpandya007 ');
+      }
+      else if (name == 'jinesh') {
+        window.open('https://github.com/21-JD ');
+      }
+      else {
+        this.echo("Assuming direct usernamt retry...");
+        window.open(`https://github.com/${name}`);
+      }
+    },
+
+//$ 'exit' FUNCTION DOESN'T REQUIRE ANY ARGUMENT 
+//$$ THIS COMMAND IS FOR CLOSEING THE 'TERMINAL FOR EVERYONE' SITE
+//$$$ CONSTRAINT IN THIS FIUCNTION IS THAT IT ONLY WORKS SOMETIME AND FOR THE LOVE OF GOD I HAVE TRIED TO FIGURE IT OUT AND FAILED
+//$$$ REAPETEDLY
+    exit: function () {
+      window.close("self");
+    },
+
+//$ 'play' FUNCTION DOES REQUIRE AN ARGUMENT AS A NAME OF A SONG
+//$$ THIS COMMAND IS FOR REDIRECTING YOU TO YOUTUBE MUSIC AND IT WILL SEARCH THAT SONG FOR YOU IF YOU TYPE LIB IT WILL TAKE YOU TO 
+//$$ YOUR SAVED PLAYLISTS
+//$$$ CONSTRAINT IN THIS FUNCTION IS THAT IT CANT DIRECTLY PLAY THAT SONG ON YOUTUBE MUSIC BUT I AM TRYING TO FIND THAT API
+    play: function (song) {
+       if(song=='lib'){
+        window.open("https://music.youtube.com/library");
+      }
+      else{
+            // this.echo("flag");
+            window.open(`https://music.youtube.com/search?q=${song}`);
+    
+          }
+    },
+//$ 'ref' FUNCTION DOESNT REQUIRE ANY ARGUMENT 
+//$$ THIS COMMAND IS FOR RELOADING THE WEBPAGE
+//$$$ CONSTRAINT IN THIS FIUCNTION IS THAT IT HAS NO CONSTRAINTS!!! HEH! I GOT YOU THERE, DIDN'T I??
+    ref: function () {
+      location.reload();
+    },
+//$ 'day' FUNCTION DOESNT REQUIRE ANY ARGUMENT 
+//$$ THIS COMMAND WILL GIVE YOU THE CURRENT DAY
+//$$$ I HAD SOME DIFFERENT USE OF THIN FUNCTION IN MY MIND, BUT I NEED TO WORK ON THAT!!
+    day: function () {
+      const date = new Date();
+      let day = date.getDay();
+      let month = date.getMonth() + 1;
+      let year = date.getFullYear();
+      // // This arrangement can be altered based on how we want the date's format to appear.
+      // let currentDate = `${day}-${month}-${year}`;
+      // this.echo(currentDate); // "17-6-2022"
+      switch (day) {
+        case 1:
+          this.echo("monday")
+          break;
+
+        case 2:
+          this.echo("tuesday")
+          break;
+
+        case 3:
+          this.echo("wednesday")
+          break;
+
+        case 4:
+          this.echo("thursday")
+          break;
+
+        case 5:
+          this.echo("friday")
+          break;
+
+        case 6:
+          this.echo("saturday")
+          break;
+
+        case 7:
+          this.echo("sunday")
+          break;
+
+        default:
+          break;
+      }
 
     }
   },
@@ -318,6 +428,7 @@ $('body').terminal({
 
 
 
+
     // if (docs == "help") {
     //   this.echo("write tt for timetable\nwrite dsa_prac for dsa practical list\nwrite dbms_prac for dbms practical list\nwrite mpco_prac for mpco practical list\nwrite py_prac for pytohn practical list\n");
     // }
@@ -339,6 +450,7 @@ $('body').terminal({
     // else {
     //   this.echo("get your text straight you silly human");
     // }
+
 
   },
   //###############################################################################
