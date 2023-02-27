@@ -13,9 +13,12 @@ Features
             git - Opens the GitHub profile of a specific user.
             exit - Closes the terminal window.
         
-### New features rolled out version 3.2
+### New features rolled out version 2.2
+
       explore ayush - after writing this cmd a promt will appear in which you have to write "1234" and 
                       allow popups on your webpage.
+      open_docs - with this you can open the practical list of 4th sem subjects taught in charusat start with
+                  "open_docs help".
         
 
 # Usage
