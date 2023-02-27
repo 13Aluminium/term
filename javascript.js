@@ -279,7 +279,7 @@ $('body').terminal({
 
     switch (docs) {
       case ("help"):
-        this.echo("write tt for timetable\nwrite dsa_prac for dsa practical list\nwrite dbms_prac for dbms practical list\nwrite mpco_prac for mpco practical list\nwrite py_prac for pytohn practical list\n");
+        this.echo("write tt for timetable\nwrite dsa_prac for dsa practical list\nwrite dbms_prac for dbms practical list\nwrite mpco_prac for mpco practical list\nwrite py_prac for pytohn practical list\nwrite dbms_ppt and write the chp you want in the promt\n");
         break;
       case ("tt"):
         window.open("public/assets/docs/timetable.pdf");
