@@ -233,16 +233,6 @@ $('body').terminal({
 //$$ YOUR SAVED PLAYLISTS
 //$$$ CONSTRAINT IN THIS FUNCTION IS THAT IT CANT DIRECTLY PLAY THAT SONG ON YOUTUBE MUSIC BUT I AM TRYING TO FIND THAT API
     play: function (song) {
-//       if (song == 'riot') {
-//         new Audio().pause();
-
-//         new Audio('public/assets/audio/Riot.mp3').play();
-//       }
-//       else if (song == 'Avengers' || 'avengers') {
-//         new Audio().pause();
-
-//         new Audio('public/assets/audio/Avengers.mp3').play();
-//       }
        if(song=='lib'){
         window.open("https://music.youtube.com/library");
       }
@@ -425,41 +415,6 @@ $('body').terminal({
         break;
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-    if (docs == "help") {
-      this.echo("write tt for timetable\nwrite dsa_prac for dsa practical list\nwrite dbms_prac for dbms practical list\nwrite mpco_prac for mpco practical list\nwrite py_prac for pytohn practical list\n");
-    }
-    if (docs == "tt") {
-      window.open("public/assets/docs/timetable.pdf");
-    }
-    else if (docs == "dsa_prac") {
-      window.open("public/assets/docs/DSA.pdf");
-    }
-    else if (docs == "dbms_prac") {
-      window.open("public/assets/docs/DBMS.pdf");
-    }
-    else if (docs == "mpco_prac") {
-      window.open("public/assets/docs/MPCO.pdf");
-    }
-    else if (docs == "py_prac") {
-      window.open("public/assets/docs/PYTHON.pdf");
-    }
-    else {
-      this.echo("get your text straight you silly human");
-    }
-
   },
   //###############################################################################
   //VERSION 2 : NOT-COMPLETED WELCOMED TO WRITE ANY MORE COMMANDS OR CHANGES IN IT
