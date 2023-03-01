@@ -165,17 +165,8 @@ $('body').terminal({
   //$$ YOUR SAVED PLAYLISTS
   //$$$ CONSTRAINT IN THIS FUNCTION IS THAT IT CANT DIRECTLY PLAY THAT SONG ON YOUTUBE MUSIC BUT I AM TRYING TO FIND THAT API
   play: function (song) {
-    if (song == 'riot') {
-      new Audio().pause();
-
-      new Audio('public/assets/audio/Riot.mp3').play();
-    }
-    else if (song == 'Avengers' || 'avengers') {
-      new Audio().pause();
-
-      new Audio('public/assets/audio/Avengers.mp3').play();
-    }
-    else if (song == 'lib') {
+    
+     if (song == 'lib') {
       window.open("https://music.youtube.com/library");
     }
     else {
