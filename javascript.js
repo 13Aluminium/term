@@ -319,9 +319,10 @@ $('body').terminal({
             this.echo("write the chapters present in only this internal!!");
             break;
         }
+        break;
 
       default:
-        this.echo("get your text straight you silly human");
+        this.echo("get your text straight you silly human!!!");
         break;
 
     }
