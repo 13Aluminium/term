@@ -1,4 +1,4 @@
-
+//https://github.com/13Aluminium/term.git
 // import { CustomOs } from './utils/datastructures.js';
 // VERSION 3.0 STILL IN BETA
 class CustomOs {
@@ -105,7 +105,7 @@ $('body').terminal({
       window.open('https://www.' + event + '.com', '_blank');
 
     }
-    //https://github.com/13Aluminium/term.git
+  
   },
 
   //$ 'clear' FUNCTION DOESNT REQUIRE ANY ARGUMENT 
