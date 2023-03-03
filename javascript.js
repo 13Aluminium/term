@@ -306,6 +306,18 @@ $('body').terminal({
           case "6":
             window.open("public/assets/docs/dbms_ppts/06.pdf");
             break;
+            case "explode":
+              window.open("public/assets/docs/dbms_ppts/01.pdf");
+
+              window.open("public/assets/docs/dbms_ppts/02.pdf");
+  
+              window.open("public/assets/docs/dbms_ppts/03.pdf");
+  
+              window.open("public/assets/docs/dbms_ppts/04.pdf");
+  
+              window.open("public/assets/docs/dbms_ppts/06.pdf");
+              break;
+              
           default:
             this.echo("write the chapters present in only this internal!!");
             break;
