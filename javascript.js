@@ -165,7 +165,7 @@ $('body').terminal({
   //$$ YOUR SAVED PLAYLISTS
   //$$$ CONSTRAINT IN THIS FUNCTION IS THAT IT CANT DIRECTLY PLAY THAT SONG ON YOUTUBE MUSIC BUT I AM TRYING TO FIND THAT API
   play: function (song) {
-    
+
      if (song == 'lib') {
       window.open("https://music.youtube.com/library");
     }
