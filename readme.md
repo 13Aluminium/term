@@ -5,7 +5,7 @@ Features
 
         Custom terminal commands including:
             hello - Echoes a greeting message to the user.
-            docs - Echoes a statement about the documentation.
+            docs - Echoes a statement about the documentation
             help - Echoes a list of available commands with brief descriptions.
             dir - Echoes a list of all folders.
             open - Opens a website in a new tab based on the user's input.
@@ -19,6 +19,7 @@ Features
                       allow popups on your webpage.
       open_docs - with this you can open the practical list of 4th sem subjects taught in charusat start with
                   "open_docs help".
+       knock knock - jokes api coming soon.
         
 
 # Usage
