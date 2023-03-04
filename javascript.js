@@ -324,9 +324,44 @@ $('body').terminal({
 
               break;
               case "course":
-                text = ayush;
-                this.echo(text.bold());
-                // this.echo("")
+             this.echo("1 Introductory concepts of DBMS:\n\tIntroduction and applications of DBMS,\n\t Purpose of database\nData Independence, Database System architecture- levels\nMappings, Database users and DBA\n")
+             
+            //  2 Relational Model
+            //  Structure of Relational Databases
+            //  Database Schema, Schema Diagram
+            //  Domains , Relations, Relational Query Languages
+            //  Relational Operations
+             
+            //  3 Entity-Relationship model
+            //  Basic concepts, Design process,
+            //  Constraints, Keys, Design issues,
+            //  E-R diagrams, Weak Entity Sets,
+            //  Extended E-R features- Generalization, Specialization, Aggregation,
+            //  Reduction to E-R database schema
+             
+            //  4 Formal Relational Query Languages
+            //  The relational Algebra
+            //  The Tuple Relational Calculus
+            //  The Domain Relational Calculus
+             
+            //  5 Relational Database Design
+            //  Functional Dependency–definition, Trivial and Non-Trivial FD, 
+            //  Closure of FD set, Closure of attributes, Irreducible set of FD, 
+            //  Normalization – 1NF, 2NF,3NF, 
+            //  Decomposition using FD- Dependency Preservation
+             
+             
+            //  6 Transaction & Recovery Management
+            //  (Mentioned Topics)
+            //  Transaction Management
+            //  Transaction concepts, Properties of Transactions
+            //  Serializability of transactions
+            //  Testing for Serializability, Conflict & View Serializability
+             
+             
+            //  Practical's
+            //  Concepts of Practical 1 to 9 from practical List
+             
             break;
               
           default:
