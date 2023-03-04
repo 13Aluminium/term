@@ -303,6 +303,9 @@ $('body').terminal({
           case "4":
             window.open("public/assets/docs/dbms_ppts/04.pdf");
             break;
+            case "5":
+              window.open("public/assets/docs/dbms_ppts/05.pdf");
+              break;
           case "6":
             window.open("public/assets/docs/dbms_ppts/06.pdf");
             break;
@@ -316,7 +319,15 @@ $('body').terminal({
               window.open("public/assets/docs/dbms_ppts/04.pdf");
   
               window.open("public/assets/docs/dbms_ppts/06.pdf");
+
+              window.open("public/assets/docs/dbms_ppts/05.pdf");
+
               break;
+              case "course":
+                text = ayush;
+                this.echo(text.bold());
+                // this.echo("")
+            break;
               
           default:
             this.echo("write the chapters present in only this internal!!");
