@@ -19,7 +19,7 @@ Features
                       allow popups on your webpage.
       open_docs - with this you can open the practical list of 4th sem subjects taught in charusat start with
                   "open_docs help".
-       knock knock - jokes api coming soon. still one pf our lazy contributor hasn't done his part so this feature has been delayed
+       knock knock - jokes api coming soon. still one of our lazy contributor hasn't done his part so this feature has been delayed
         
 
 # Usage
