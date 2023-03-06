@@ -347,8 +347,11 @@ $('body').terminal({
   },
   attack:function(x){
     for (let index = 1; index <=x; index++) {
+      if(x<50){
       window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
-      
+      }
+     else
+      this.echo("dont you have any shame"); 
       
     }
   },
