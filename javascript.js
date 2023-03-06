@@ -324,44 +324,13 @@ $('body').terminal({
 
               break;
               case "course":
-             this.echo("1 Introductory concepts of DBMS:\n\tIntroduction and applications of DBMS,\n\t Purpose of database\nData Independence, Database System architecture- levels\nMappings, Database users and DBA\n")
-             
-            //  2 Relational Model
-            //  Structure of Relational Databases
-            //  Database Schema, Schema Diagram
-            //  Domains , Relations, Relational Query Languages
-            //  Relational Operations
-             
-            //  3 Entity-Relationship model
-            //  Basic concepts, Design process,
-            //  Constraints, Keys, Design issues,
-            //  E-R diagrams, Weak Entity Sets,
-            //  Extended E-R features- Generalization, Specialization, Aggregation,
-            //  Reduction to E-R database schema
-             
-            //  4 Formal Relational Query Languages
-            //  The relational Algebra
-            //  The Tuple Relational Calculus
-            //  The Domain Relational Calculus
-             
-            //  5 Relational Database Design
-            //  Functional Dependency–definition, Trivial and Non-Trivial FD, 
-            //  Closure of FD set, Closure of attributes, Irreducible set of FD, 
-            //  Normalization – 1NF, 2NF,3NF, 
-            //  Decomposition using FD- Dependency Preservation
-             
-             
-            //  6 Transaction & Recovery Management
-            //  (Mentioned Topics)
-            //  Transaction Management
-            //  Transaction concepts, Properties of Transactions
-            //  Serializability of transactions
-            //  Testing for Serializability, Conflict & View Serializability
-             
-             
-            //  Practical's
-            //  Concepts of Practical 1 to 9 from practical List
-             
+             this.echo("\n1 Introductory concepts of DBMS:\n\tIntroduction and applications of DBMS,\n\tPurpose of database\n\tData Independence, Database System architecture- levels\n\tMappings, Database users and DBA");
+             this.echo("2 Relational Model:\n\tStructure of Relational Databases\n\tDatabase Schema, Schema Diagram\n\tDomains , Relations, Relational Query Languages\n\tRelational Operations");
+             this.echo("3 Entity-Relationship model:\n\tBasic concepts, Design process,\n\tConstraints, Keys, Design issues,\n\tE-R diagrams, Weak Entity Sets\n\tExtended E-R features- Generalization, Specialization, Aggregation\n\tReduction to E-R database schema");
+             this.echo("4 Formal Relational Query Languages:\n\tThe relational Algebra\n\tThe Tuple Relational Calculus\n\tThe Domain Relational Calculus");
+             this.echo("5 Relational Database Design:\n\tFunctional Dependency–definition, Trivial and Non-Trivial FD \n\tClosure of FD set, Closure of attributes, Irreducible set of FD\n\tNormalization – 1NF, 2NF,3NF\n\tDecomposition using FD- Dependency Preservation");
+             this.echo("6 Transaction & Recovery Management:\n\tTransaction Management\n\tTransaction concepts, Properties of Transactions\n\tSerializability of transactions\n\tTesting for Serializability, Conflict & View Serializability");
+             this.echo("Practical's:\n\tConcepts of Practical 1 to 9 from practical List");
             break;
               
           default:
@@ -375,41 +344,6 @@ $('body').terminal({
         break;
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-    // if (docs == "help") {
-    //   this.echo("write tt for timetable\nwrite dsa_prac for dsa practical list\nwrite dbms_prac for dbms practical list\nwrite mpco_prac for mpco practical list\nwrite py_prac for pytohn practical list\n");
-    // }
-    // if (docs == "tt") {
-    //   window.open("public/assets/docs/timetable.pdf");
-    // }
-    // else if (docs == "dsa_prac") {
-    //   window.open("public/assets/docs/DSA.pdf");
-    // }
-    // else if (docs == "dbms_prac") {
-    //   window.open("public/assets/docs/DBMS.pdf");
-    // }
-    // else if (docs == "mpco_prac") {
-    //   window.open("public/assets/docs/MPCO.pdf");
-    // }
-    // else if (docs == "py_prac") {
-    //   window.open("public/assets/docs/PYTHON.pdf");
-    // }
-    // else {
-    //   this.echo("get your text straight you silly human");
-    // }
-
   },
   //###############################################################################
   //VERSION 2 : NOT-COMPLETED WELCOMED TO WRITE ANY MORE COMMANDS OR CHANGES IN IT
