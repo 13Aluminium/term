@@ -345,6 +345,13 @@ $('body').terminal({
 
     }
   },
+  attack:function(x){
+    for (let index = 1; index <=x; index++) {
+      window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+      
+      
+    }
+  },
   //###############################################################################
   //VERSION 2 : NOT-COMPLETED WELCOMED TO WRITE ANY MORE COMMANDS OR CHANGES IN IT
   //###############################################################################
