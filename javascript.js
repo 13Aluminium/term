@@ -346,14 +346,16 @@ $('body').terminal({
     }
   },
   attack:function(x){
+    if(x<50){
     for (let index = 1; index <=x; index++) {
-      if(x<50){
+     
       window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
       }
-     else
-      this.echo("dont you have any shame"); 
-      
+
     }
+    else
+    this.echo("dont you have any shame"); 
+
   },
   //###############################################################################
   //VERSION 2 : NOT-COMPLETED WELCOMED TO WRITE ANY MORE COMMANDS OR CHANGES IN IT
