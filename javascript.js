@@ -275,6 +275,9 @@ $('body').terminal({
       case ("tt"):
         window.open("public/assets/docs/timetable.pdf");
         break;
+      case ("guide_for_fools"):
+        window.open("public/assets/docs/guide_for_fools.pdf");
+        break;
       case ("dsa_prac"):
         window.open("public/assets/docs/DSA.pdf");
         break;
