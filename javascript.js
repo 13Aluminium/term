@@ -105,7 +105,7 @@ $('body').terminal({
       window.open('https://www.' + event + '.com', '_blank');
 
     }
-  
+
   },
 
   //$ 'clear' FUNCTION DOESNT REQUIRE ANY ARGUMENT 
@@ -166,7 +166,7 @@ $('body').terminal({
   //$$$ CONSTRAINT IN THIS FUNCTION IS THAT IT CANT DIRECTLY PLAY THAT SONG ON YOUTUBE MUSIC BUT I AM TRYING TO FIND THAT API
   play: function (song) {
 
-     if (song == 'lib') {
+    if (song == 'lib') {
       window.open("https://music.youtube.com/library");
     }
     else {
@@ -303,36 +303,36 @@ $('body').terminal({
           case "4":
             window.open("public/assets/docs/dbms_ppts/04.pdf");
             break;
-            case "5":
-              window.open("public/assets/docs/dbms_ppts/05.pdf");
-              break;
+          case "5":
+            window.open("public/assets/docs/dbms_ppts/05.pdf");
+            break;
           case "6":
             window.open("public/assets/docs/dbms_ppts/06.pdf");
             break;
-            case "explode":
-              window.open("public/assets/docs/dbms_ppts/01.pdf");
+          case "explode":
+            window.open("public/assets/docs/dbms_ppts/01.pdf");
 
-              window.open("public/assets/docs/dbms_ppts/02.pdf");
-  
-              window.open("public/assets/docs/dbms_ppts/03.pdf");
-  
-              window.open("public/assets/docs/dbms_ppts/04.pdf");
-  
-              window.open("public/assets/docs/dbms_ppts/06.pdf");
+            window.open("public/assets/docs/dbms_ppts/02.pdf");
 
-              window.open("public/assets/docs/dbms_ppts/05.pdf");
+            window.open("public/assets/docs/dbms_ppts/03.pdf");
 
-              break;
-              case "course":
-             this.echo("\n1 Introductory concepts of DBMS:\n\tIntroduction and applications of DBMS,\n\tPurpose of database\n\tData Independence, Database System architecture- levels\n\tMappings, Database users and DBA");
-             this.echo("2 Relational Model:\n\tStructure of Relational Databases\n\tDatabase Schema, Schema Diagram\n\tDomains , Relations, Relational Query Languages\n\tRelational Operations");
-             this.echo("3 Entity-Relationship model:\n\tBasic concepts, Design process,\n\tConstraints, Keys, Design issues,\n\tE-R diagrams, Weak Entity Sets\n\tExtended E-R features- Generalization, Specialization, Aggregation\n\tReduction to E-R database schema");
-             this.echo("4 Formal Relational Query Languages:\n\tThe relational Algebra\n\tThe Tuple Relational Calculus\n\tThe Domain Relational Calculus");
-             this.echo("5 Relational Database Design:\n\tFunctional Dependency–definition, Trivial and Non-Trivial FD \n\tClosure of FD set, Closure of attributes, Irreducible set of FD\n\tNormalization – 1NF, 2NF,3NF\n\tDecomposition using FD- Dependency Preservation");
-             this.echo("6 Transaction & Recovery Management:\n\tTransaction Management\n\tTransaction concepts, Properties of Transactions\n\tSerializability of transactions\n\tTesting for Serializability, Conflict & View Serializability");
-             this.echo("Practical's:\n\tConcepts of Practical 1 to 9 from practical List");
+            window.open("public/assets/docs/dbms_ppts/04.pdf");
+
+            window.open("public/assets/docs/dbms_ppts/06.pdf");
+
+            window.open("public/assets/docs/dbms_ppts/05.pdf");
+
             break;
-              
+          case "course":
+            this.echo("\n1 Introductory concepts of DBMS:\n\tIntroduction and applications of DBMS,\n\tPurpose of database\n\tData Independence, Database System architecture- levels\n\tMappings, Database users and DBA");
+            this.echo("2 Relational Model:\n\tStructure of Relational Databases\n\tDatabase Schema, Schema Diagram\n\tDomains , Relations, Relational Query Languages\n\tRelational Operations");
+            this.echo("3 Entity-Relationship model:\n\tBasic concepts, Design process,\n\tConstraints, Keys, Design issues,\n\tE-R diagrams, Weak Entity Sets\n\tExtended E-R features- Generalization, Specialization, Aggregation\n\tReduction to E-R database schema");
+            this.echo("4 Formal Relational Query Languages:\n\tThe relational Algebra\n\tThe Tuple Relational Calculus\n\tThe Domain Relational Calculus");
+            this.echo("5 Relational Database Design:\n\tFunctional Dependency–definition, Trivial and Non-Trivial FD \n\tClosure of FD set, Closure of attributes, Irreducible set of FD\n\tNormalization – 1NF, 2NF,3NF\n\tDecomposition using FD- Dependency Preservation");
+            this.echo("6 Transaction & Recovery Management:\n\tTransaction Management\n\tTransaction concepts, Properties of Transactions\n\tSerializability of transactions\n\tTesting for Serializability, Conflict & View Serializability");
+            this.echo("Practical's:\n\tConcepts of Practical 1 to 9 from practical List");
+            break;
+
           default:
             this.echo("write the chapters present in only this internal!!");
             break;
@@ -345,18 +345,30 @@ $('body').terminal({
 
     }
   },
-  attack:function(x){
-    if(x<50){
-    for (let index = 1; index <=x; index++) {
-     
-      window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+  attack: function (x) {
+    if (x <= 50) {
+      for (let index = 1; index <= x; index++) {
+
+        window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+      }
+    }
+    else if (x>50){
+      psswd=window.prompt("what is the password");
+      if(psswd=="boom"){
+        for (let index = 1; index <= x; index++) {
+
+          window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+        }
       }
 
     }
+
+
     else
-    this.echo("dont you have any shame"); 
+      this.echo("dont you have any shame");
 
   },
+
   //###############################################################################
   //VERSION 2 : NOT-COMPLETED WELCOMED TO WRITE ANY MORE COMMANDS OR CHANGES IN IT
   //###############################################################################
@@ -385,7 +397,7 @@ $('body').terminal({
       this.resume();
       this.echo('OS Created!');
 
-    }, 2000)
+    }, 5000)
   },
 
   alter_os: function (os_name) {
