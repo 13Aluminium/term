@@ -128,6 +128,9 @@ $('body').terminal({
     else if (name == 'ayush') {
       window.open('https://github.com/13Aluminium');
     }
+    else if (name == 'leet_ayush'){
+      window.open("https://leetcode.com/13Aluminium/");
+    }
     else if (name == 'al_term') {
       window.open('https://github.com/13Aluminium/term')
     }
