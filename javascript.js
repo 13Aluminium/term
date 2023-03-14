@@ -184,48 +184,48 @@ $('body').terminal({
   //$ 'day' FUNCTION DOESNT REQUIRE ANY ARGUMENT 
   //$$ THIS COMMAND WILL GIVE YOU THE CURRENT DAY
   //$$$ I HAD SOME DIFFERENT USE OF THIN FUNCTION IN MY MIND, BUT I NEED TO WORK ON THAT!!
-  day: function () {
-    const date = new Date();
-    let day = date.getDay();
-    let month = date.getMonth() + 1;
-    let year = date.getFullYear();
-    // // This arrangement can be altered based on how we want the date's format to appear.
-    // let currentDate = `${day}-${month}-${year}`;
-    // this.echo(currentDate); // "17-6-2022"
-    switch (day) {
-      case 1:
-        this.echo("monday")
-        break;
+  // day: function () {
+  //   const date = new Date();
+  //   let day = date.getDay();
+  //   let month = date.getMonth() + 1;
+  //   let year = date.getFullYear();
+  //   // // This arrangement can be altered based on how we want the date's format to appear.
+  //   // let currentDate = `${day}-${month}-${year}`;
+  //   // this.echo(currentDate); // "17-6-2022"
+  //   switch (day) {
+  //     case 1:
+  //       this.echo("monday")
+  //       break;
 
-      case 2:
-        this.echo("tuesday")
-        break;
+  //     case 2:
+  //       this.echo("tuesday")
+  //       break;
 
-      case 3:
-        this.echo("wednesday")
-        break;
+  //     case 3:
+  //       this.echo("wednesday")
+  //       break;
 
-      case 4:
-        this.echo("thursday")
-        break;
+  //     case 4:
+  //       this.echo("thursday")
+  //       break;
 
-      case 5:
-        this.echo("friday")
-        break;
+  //     case 5:
+  //       this.echo("friday")
+  //       break;
 
-      case 6:
-        this.echo("saturday")
-        break;
+  //     case 6:
+  //       this.echo("saturday")
+  //       break;
 
-      case 7:
-        this.echo("sunday")
-        break;
+  //     case 7:
+  //       this.echo("sunday")
+  //       break;
 
-      default:
-        break;
-    }
+  //     default:
+  //       break;
+  //   }
 
-  },
+  // },
   //###############################################################################
   //VERSION 1 : COMPLETED DONT WRITE ANY MORE COMMANDS OR CHANGES IN IT
   //###############################################################################
