@@ -260,10 +260,19 @@ $('body').terminal({
     if (knock == null) {
       this.echo("do you even know how to ask for a joke??");
     }
-    if (knock == "knock") {
-      this.echo("who's there??");
-      this.echo("i will get back to you");
-    }
+    // if (knock == "knock") {
+    //   this.echo("who's there??");
+    //   this.echo("i will get back to you");
+    // }
+     if (knock == "knock") {
+
+            let url = "https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,explicit&type=single";
+            fetch(url)
+                .then(data => data.json())
+                .then(item => {
+                    this.echo(`${item.joke}`);
+                });
+        }
   },
 
   open_docs: function (docs) {
