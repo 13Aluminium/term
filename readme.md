@@ -20,6 +20,7 @@ Features
       open_docs - with this you can open the practical list of 4th sem subjects taught in charusat start with
                   "open_docs help".
       attack - write attack and write number less than or equal to 50.
+      knock knock feature is deployed
                   
 
       
