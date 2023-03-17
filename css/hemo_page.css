@@ -11,7 +11,8 @@ body {
 #body-header {
     height: 65vh;
     opacity: 0.8;
-    background-image: url(https://macreports.com/wp-content/uploads/2019/05/terminal-app-icon.png);
+    /* background-image: url(https://macreports.com/wp-content/uploads/2019/05/terminal-app-icon.png); */
+    background-image: url(https://images.unsplash.com/photo-1603366615917-1fa6dad5c4fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8&w=1000&q=80);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
