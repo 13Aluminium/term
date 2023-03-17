@@ -21,6 +21,7 @@ Features
                   "open_docs help".
       attack - write attack and write number less than or equal to 50.
       knock knock feature is deployed
+      Home Page : we have added a new home page in which there a section at end where you can contact us feel free to contact us via email about any bug or                             suggestions
                   
 
       
