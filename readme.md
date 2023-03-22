@@ -1,9 +1,9 @@
-#Terminal for Everyone
+# Terminal for Everyone
 
 Terminal for Everyone is a web-based terminal-like interface built using the jQuery Terminal plugin. The code includes two JavaScript files, jquery-3.3.1.min.js and jquery.terminal.min.js, as well as a CSS file jquery.terminal.min.css that are imported from external sources.
-Features
+# Features
 
-#Custom terminal commands including:
+## Custom terminal commands including:
 
     hello - Echoes a greeting message to the user.
     docs - Echoes a statement about the documentation.
@@ -19,27 +19,27 @@ Features
     knock knock - Displays a knock knock joke.
     Home Page - Added a new home page with a section to contact us via email about any bugs or suggestions.
 
-#Usage
+## Usage
 
 To use this terminal, simply open the index.html file in a web browser. The terminal will display a greeting message and you can start using the custom commands by typing them in the terminal prompt.
 
-#Downloading the Repository
+## Downloading the Repository
 
 To download the repository, you can either:
 
     Click the green "Code" button above and select "Download ZIP" to download a compressed version of the code, or
 
-    Run the following command in your terminal:
+   ### Run the following command in your terminal:
 
 
     git clone https://github.com/[username]/terminal-for-everyone.git
 
     Replace [username] with the GitHub username of the repository owner.
 
-#Contributions
+## Contributions
 
 If you have any suggestions or improvements for this code, feel free to fork the repository and make a pull request.
 
-#License
+# License
 
 This code is open-source and available under the MIT License.
