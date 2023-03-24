@@ -32,9 +32,8 @@ To download the repository, you can either:
    ### Run the following command in your terminal:
 
 
-    git clone https://github.com/[username]/terminal-for-everyone.git
+    git clone https://github.com/13Aluminium/terminal-for-everyone.git
 
-    Replace [username] with the GitHub username of the repository owner.
 
 ## Contributions
 
