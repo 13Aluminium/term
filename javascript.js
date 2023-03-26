@@ -150,7 +150,7 @@ $('body').terminal({
       window.open('https://github.com/21-JD ');
     }
     else {
-      this.echo("Assuming direct usernamt retry...");
+      this.echo("Assuming direct username retry...");
       window.open(`https://github.com/${name}`);
     }
   },
