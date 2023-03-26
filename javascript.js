@@ -301,8 +301,11 @@ $('body').terminal({
       case ("mpco_prac"):
         window.open("public/assets/docs/MPCO.pdf");
         break;
-      case ("py_prac"):
+      case ("py_prac1"):
         window.open("public/assets/docs/PYTHON.pdf");
+        break;
+      case ("py_prac2"):
+        window.open("public/assets/docs/PYTHON2.pdf");
         break;
       case ("dbms_ppt"):
         var chp = window.prompt("which chapter do you want, puny human??");
