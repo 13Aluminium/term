@@ -18,7 +18,7 @@ Terminal for Everyone is a web-based terminal-like interface built using the jQu
                 or more information.
     attack - Displays a message with a number less than or equal to 50.
     knock knock - Displays a knock knock joke.
-        Home Page - Added a new home page with a section to contact us via email about any bugs or suggestions.
+        Home Page - Added a new home page with a section to contact us via email about any  suggestions.
 
 
 ## Usage
