@@ -21,6 +21,10 @@ Terminal for Everyone is a web-based terminal-like interface built using the jQu
         Home Page - Added a new home page with a section to contact us via email about any  suggestions.
 
 
+## Upcoming Feature
+        Auto Complete 
+
+
 ## Usage
 
 To use this terminal, simply open the index.html file in a web browser. The terminal will display a greeting message and you can start using the custom commands by typing them in the terminal prompt.
