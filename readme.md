@@ -31,6 +31,6 @@ To use this terminal, simply open the `index.html` file in a web browser. The te
 To download the repository, you can either:
 
 - Click the green "Code" button above and select "Download ZIP" to download a compressed version of the code, or
-- Run the following command in your terminal:    git clone https://github.com/[username]/terminal-for-everyone.git
+- Run the following command in your terminal:    git clone https://github.com/13Aluminium/terminal-for-everyone.git
 
  Yoo
