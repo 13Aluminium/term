@@ -19,8 +19,8 @@ Terminal for Everyone is a web-based terminal-like interface built using the jQu
   - `knock knock`: Displays a knock knock joke.
   - Home Page: Added a new home page with a section to contact us via email about any suggestions.
 
-- Upcoming feature:
-  Auto-complete.
+## Upcoming feature:
+   - Auto-complete
 
 ## Usage
 
