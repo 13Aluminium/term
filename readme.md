@@ -23,7 +23,7 @@ Terminal for Everyone is a web-based terminal-like interface built using the jQu
    
 
 
-## Usage
+## Usage::
 
 To use this terminal, simply open the `index.html` file in a web browser. The terminal will display a greeting message and you can start using the custom commands by typing them in the terminal prompt.
 
