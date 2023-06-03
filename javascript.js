@@ -150,7 +150,7 @@ $('body').terminal({
       window.open('https://github.com/21-JD ');
     }
     else {
-      this.echo("Assuming direct usernamt retry...");
+      this.echo("Assuming direct username retry...");
       window.open(`https://github.com/${name}`);
     }
   },
@@ -263,10 +263,19 @@ $('body').terminal({
     if (knock == null) {
       this.echo("do you even know how to ask for a joke??");
     }
-    if (knock == "knock") {
-      this.echo("who's there??");
-      this.echo("i will get back to you");
-    }
+    // if (knock == "knock") {
+    //   this.echo("who's there??");
+    //   this.echo("i will get back to you");
+    // }
+     if (knock == "knock") {
+
+            let url = "https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,explicit&type=single";
+            fetch(url)
+                .then(data => data.json())
+                .then(item => {
+                    this.echo(`${item.joke}`);
+                });
+        }
   },
 
   open_docs: function (docs) {
@@ -279,6 +288,7 @@ $('body').terminal({
         window.open("public/assets/docs/timetable.pdf");
         break;
       case ("guide_for_fools"):
+        this.echo("flag");
         window.open("public/assets/docs/guide_for_fools.pdf");
         break;
       case ("dsa_prac"):
@@ -291,8 +301,11 @@ $('body').terminal({
       case ("mpco_prac"):
         window.open("public/assets/docs/MPCO.pdf");
         break;
-      case ("py_prac"):
+      case ("py_prac1"):
         window.open("public/assets/docs/PYTHON.pdf");
+        break;
+      case ("py_prac2"):
+        window.open("public/assets/docs/PYTHON2.pdf");
         break;
       case ("dbms_ppt"):
         var chp = window.prompt("which chapter do you want, puny human??");
