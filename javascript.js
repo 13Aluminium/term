@@ -128,7 +128,7 @@ $('body').terminal({
     else if (name == 'ayush') {
       window.open('https://github.com/13Aluminium');
     }
-    else if (name == 'leet_ayush'){
+    else if (name == 'leet_ayush') {
       window.open("https://leetcode.com/13Aluminium/");
     }
     else if (name == 'al_term') {
@@ -267,15 +267,15 @@ $('body').terminal({
     //   this.echo("who's there??");
     //   this.echo("i will get back to you");
     // }
-     if (knock == "knock") {
+    if (knock == "knock") {
 
-            let url = "https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,explicit&type=single";
-            fetch(url)
-                .then(data => data.json())
-                .then(item => {
-                    this.echo(`${item.joke}`);
-                });
-        }
+      let url = "https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,explicit&type=single";
+      fetch(url)
+        .then(data => data.json())
+        .then(item => {
+          this.echo(`${item.joke}`);
+        });
+    }
   },
 
   open_docs: function (docs) {
@@ -371,9 +371,9 @@ $('body').terminal({
         window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
       }
     }
-    else if (x>50){
-      psswd=window.prompt("what is the password");
-      if(psswd=="boom"){
+    else if (x > 50) {
+      psswd = window.prompt("what is the password");
+      if (psswd == "boom") {
         for (let index = 1; index <= x; index++) {
 
           window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
@@ -387,10 +387,40 @@ $('body').terminal({
       this.echo("dont you have any shame");
 
   },
-  sem: function (x){
+  sem: function (x) {
 
-    if (x == 5){
+    var sub;
+    if (x == 5) {
+      this.echo("Write this subject in the Promt and thus the directory containing the material will open");
       this.echo("   subjects");
+      this.echo("   |");
+      this.echo("   |-- DAA")
+      this.echo("   |");
+      this.echo("   |-- MAD")
+      this.echo("   |");
+      this.echo("   |-- OS")
+      this.echo("   |");
+      this.echo("   |-- SE")
+      // this.pause();
+      setTimeout(() => {
+        sub = window.prompt("which subject do you choose");
+        switch (sub) {
+          case "DAA":
+            window.open("https://drive.google.com/drive/folders/1qMFE39K6C256BDC_b6LCPTTuurqZAKwK?usp=sharing");
+            break;
+          case "MAD":
+            window.open("https://drive.google.com/drive/folders/1YajDnkalILCxQrt700T7lDtjMifQdEQw?usp=sharing");
+            break;
+          case "OS":
+            window.open("https://drive.google.com/drive/folders/180YaQ1OlirSf14NZu3z_RgS0dGRSXH9h?usp=sharing");
+            break;
+          case "SE":
+            window.open("https://drive.google.com/drive/folders/1GoyQG0qTk7bavJrPh3we1OkG2hKAuJug?usp=sharing");
+            break;
+        }
+      }, 1000)
+
+
     }
   },
 
@@ -450,7 +480,7 @@ $('body').terminal({
 
 
   {
-    greetings: 'type help to see more options\nwrite open_docs help for seeing our new feature'
+    greetings: 'type help to see more options\nwrite open_docs help for seeing our new feature\nWrite :sem 5: to open the material'
     // greetings: "write opendocs"
   });
 
