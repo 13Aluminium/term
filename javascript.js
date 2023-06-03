@@ -387,6 +387,12 @@ $('body').terminal({
       this.echo("dont you have any shame");
 
   },
+  sem: function (x){
+
+    if (x == 5){
+      this.echo("   subjects");
+    }
+  },
 
   //###############################################################################
   //VERSION 2 : NOT-COMPLETED WELCOMED TO WRITE ANY MORE COMMANDS OR CHANGES IN IT
