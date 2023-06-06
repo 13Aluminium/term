@@ -406,16 +406,16 @@ $('body').terminal({
         sub = window.prompt("which subject do you choose");
         sub.toLowerCase();
         switch (sub) {
-          case "DAA":
+          case "daa":
             window.open("https://drive.google.com/drive/folders/1qMFE39K6C256BDC_b6LCPTTuurqZAKwK?usp=sharing");
             break;
-          case "MAD":
+          case "mad":
             window.open("https://drive.google.com/drive/folders/1YajDnkalILCxQrt700T7lDtjMifQdEQw?usp=sharing");
             break;
-          case "OS":
+          case "os":
             window.open("https://drive.google.com/drive/folders/180YaQ1OlirSf14NZu3z_RgS0dGRSXH9h?usp=sharing");
             break;
-          case "SE":
+          case "se":
             window.open("https://drive.google.com/drive/folders/1GoyQG0qTk7bavJrPh3we1OkG2hKAuJug?usp=sharing");
             break;
         }
