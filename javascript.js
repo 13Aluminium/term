@@ -404,6 +404,7 @@ $('body').terminal({
       // this.pause();
       setTimeout(() => {
         sub = window.prompt("which subject do you choose");
+        sub.toLowerCase();
         switch (sub) {
           case "DAA":
             window.open("https://drive.google.com/drive/folders/1qMFE39K6C256BDC_b6LCPTTuurqZAKwK?usp=sharing");
