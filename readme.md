@@ -2,7 +2,7 @@
 
 Terminal for Everyone is a web-based terminal-like interface built using the jQuery Terminal plugin. The code includes two JavaScript files (`jquery-3.3.1.min.js` and `jquery.terminal.min.js`) as well as a CSS file (`jquery.terminal.min.css`) that are imported from external sources.
 
-## Features:
+## Features
 
 - Custom terminal commands including:
   - `hello`: Echoes a greeting message to the user.
@@ -17,6 +17,7 @@ Terminal for Everyone is a web-based terminal-like interface built using the jQu
   - `open_docs`: Opens the practical list of 4th sem subjects taught in Charusat. Type `open_docs help` for more information.
   - `attack`: Displays a message with a number less than or equal to 50.
   - `knock knock`: Displays a knock knock joke.
+  - `sem 5`: display the subjects of that semester.
   - Home Page: Added a new home page with a section to contact us via email about any suggestions.
 
 
