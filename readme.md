@@ -17,6 +17,7 @@ Terminal for Everyone is a web-based terminal-like interface built using the jQu
   - `open_docs`: Opens the practical list of 4th sem subjects taught in Charusat. Type `open_docs help` for more information.
   - `attack`: Displays a message with a number less than or equal to 50.
   - `knock knock`: Displays a knock knock joke.
+  - `sem 5`: display the subjects of that semester.
   - Home Page: Added a new home page with a section to contact us via email about any suggestions.
 
 
