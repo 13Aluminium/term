@@ -2,7 +2,7 @@
 
 Terminal for Everyone is a web-based terminal-like interface built using the jQuery Terminal plugin. The code includes two JavaScript files (`jquery-3.3.1.min.js` and `jquery.terminal.min.js`) as well as a CSS file (`jquery.terminal.min.css`) that are imported from external sources.
 
-## Features
+## Features:
 
 - Custom terminal commands including:
   - `hello`: Echoes a greeting message to the user.
